@@ -19,7 +19,8 @@ int CheckBool(int iNo)
     {
         return true;
     }
-    else{
+    else
+    {
         return false;
     }
     return iSum;
