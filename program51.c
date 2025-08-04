@@ -6,7 +6,7 @@ int main()
     while(iNo!=0)
     {
         iDigit=iNo%10;
-        printf("%d\n",iDigit);
+        printf("%d\t",iDigit);
         iNo=iNo/10;
     }
     return 0;

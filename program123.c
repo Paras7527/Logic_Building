@@ -15,8 +15,9 @@ void Display(int iRow,int iCol)
     {
         for (j=1;j<=iCol;j++)         //Inner(Columns)
         {
-            if(i==j){
-            printf("&\t");
+            if(i==j)
+            {
+                printf("&\t");
             }
             else
             {
